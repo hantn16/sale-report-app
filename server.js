@@ -9,4 +9,7 @@ app.get('/bad-request',(req,res)=> {
         errorMessage: 'Bad Request'
     });
 });
+app.get('/about',(req,res)=>{
+    res.send('About Page');
+});
 app.listen(3000);
